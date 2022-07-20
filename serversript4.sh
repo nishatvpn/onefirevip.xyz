@@ -2,10 +2,10 @@
 cp /usr/share/zoneinfo/Asia/Dubai /etc/localtime
 
 #Database Details
-HOST='50.116.18.242';
-USER='loinvpnc_vipplus';
-PASS='@@@For1en3At1';
-DBNAME='loinvpnc_vipplus';
+HOST='192.64.87.141';
+USER='mokimvpn_rakibfire';
+PASS='mokimvpn_rakibfire';
+DBNAME='mokimvpn_rakibfire';
 
 install_require()
 {
