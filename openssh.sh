@@ -6,10 +6,10 @@
 NAMEVPN="NishatSoft
 ";
 WEBSCRIPT="panel-vpn.biz";
-DBHOST="174.138.183.243";
-DBNAME="abolirez_yooy";
-DBUSER="abolirez_yooy";
-DBPASS="abolirez_yooy";
+DBHOST="192.64.87.141";
+DBNAME="mokimvpn_rakibfire";
+DBUSER="mokimvpn_rakibfire";
+DBPASS="mokimvpn_rakibfire";
 APISYNCLOGIN="authentication";
 APISYNC="firenetdev";
 SERVERZ=$(curl -4s http://ipinfo.io/org);
